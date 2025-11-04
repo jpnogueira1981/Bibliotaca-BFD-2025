@@ -1,4 +1,4 @@
-# Bibliotaca-BFD-2025
+# Biblioteca-BFD-2025
 Criação de um projeto simples de gerenciamento de biblioteca desenvolvido em TypeScript para demonstrar a manipulação básica do DOM e o uso do framework CSS utilitário Tailwind CSS.
 
 O sistema permite que o usuário adicione novos livros e gerencie o status de disponibilidade (emprestar/devolver) dos itens existentes.
