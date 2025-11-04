@@ -11,7 +11,7 @@ O sistema permite que o usuário adicione novos livros e gerencie o status de di
 * **Devolver:** Altera o status de um livro para "disponível" (adicionando-o de volta à visualização principal).
 * **Design:** Interface moderna e responsiva utilizando **Tailwind CSS**.
 
-##  Tecnologias Utilizadas
+ ## Tecnologias Utilizadas
 
 * **TypeScript:** Linguagem principal para a lógica de classes (`Livro` e `Biblioteca`) e manipulação do DOM.
 * **JavaScript (ES6+):** O TypeScript é transpilado para JS para ser executado no navegador.
