@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'custom-aponti': '#9D00FF', 
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-purple-200 p-8">
+
+        <div class="flex items-end justify-between mb-6 pb-3">
+            <h1 class="text-3xl font-Nexa Rust Sans text-custom-aponti">
+                Biblioteca BFD 2025
+            </h1>
+            <img 
+                src="img/aponti_bfd.png" 
+                alt="Logo da Aponti" 
+                class="h-16 w-auto object-contain ml-4" 
+                style="margin-bottom: -0.3rem;"
+            >
+        </div>
+
+        <div id="controles" class="bg-white p-6 rounded-xl shadow-lg mb-8">
+            <h2 class="text-2xl font-Nexa Rust Sans mb-4 text-custom-aponti">Livro</h2>
+            
+            <div class="flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-4">
+                <input 
+                    type="text" 
+                    id="titulo" 
+                    placeholder="Digite o Título do Livro"
+                    class="flex-grow p-3 border border-custom-aponti rounded-lg focus:ring-custom-aponti focus:border-custom-aponti transition duration-150 w-full sm:w-auto"
+                >
+                                
+                <button id="btnAdicionar" class="w-full sm:w-auto bg-custom-aponti hover:bg-green-700 text-black font-semibold py-3 px-4 rounded-lg shadow-md transition duration-200">
+                     Adicionar
+                </button>
+                <button id="btnEmprestar" class="w-full sm:w-auto bg-custom-aponti hover:bg-yellow-600 text-black font-semibold py-3 px-4 rounded-lg shadow-md transition duration-200">
+                     Emprestar
+                </button>
+                <button id="btnDevolver" class="w-full sm:w-auto bg-custom-aponti hover:bg-blue-800 text-black font-semibold py-3 px-4 rounded-lg shadow-md transition duration-200">
+                     Devolver
+                </button>
+            </div>
+        </div>
+
+        <div id="livros" class="bg-purple-100 p-6 rounded-x1 shadow-lg">
+            
+            </div>
+    </div>
+    <section class="flex justify-center py-4 mt-5 text-secondary text-sm border-t border-gray-200">
+            <a href="https://github.com/jpnogueira1981" target="_blank"><img src="img/github.png" alt="GitHub" class="w-10 h-10"></a>
+        </section>
+    <footer class="text-center text-sm text-gray-600 mt-10 pb-4">
+        &copy; 2025 João Paulo Nogueira. 
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
